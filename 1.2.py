@@ -1,0 +1,6 @@
+seconds = int(input('Пожалуйста, введие количество секунд: '))
+minutes = (seconds // 60)
+hours = (minutes // 60)
+seconds_remainder = (seconds % 60)
+minutes_remainder = (minutes % 60)
+print(f"Время в формате чч:мм:сс   {hours}:{minutes_remainder}:{seconds_remainder}")
